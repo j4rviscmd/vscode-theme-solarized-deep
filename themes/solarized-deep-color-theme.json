@@ -95,6 +95,7 @@
     "editorGroupHeader.noTabsBackground": "#001520",
     "editorGroup.border": "#001520",
     "editorGroup.dropBackground": "#021b2680",
+    "editorGroup.emptyBackground": "#000508",
     "panel.background": "#000508",
     "panel.border": "#001520",
     "panelTitle.activeBorder": "#2aa198",
