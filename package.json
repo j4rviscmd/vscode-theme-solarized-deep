@@ -4,6 +4,7 @@
   "description": "A deeper, calmer dark theme based on Solarized Dark",
   "version": "0.1.0",
   "publisher": "j4rviscmd",
+  "icon": "icon.png",
   "license": "MIT",
   "repository": {
     "type": "git",
