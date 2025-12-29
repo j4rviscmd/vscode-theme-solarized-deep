@@ -273,7 +273,7 @@
     "editorSuggestWidget.border": "#021b26",
     "editorSuggestWidget.foreground": "#93a1a1",
     "editorSuggestWidget.highlightForeground": "#2aa198",
-    "editorSuggestWidget.selectedBackground": "#021b26",
+    "editorSuggestWidget.selectedBackground": "#033844",
     "editorHoverWidget.background": "#001520",
     "editorHoverWidget.border": "#021b26",
     "editorMarkerNavigation.background": "#001520",
