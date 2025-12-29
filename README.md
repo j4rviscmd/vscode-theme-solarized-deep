@@ -16,12 +16,14 @@ A deeper, calmer VSCode dark theme based on Solarized Dark with enhanced darknes
 
 ## Installation
 
-### From VSCode Marketplace (Coming Soon)
+### From VSCode Marketplace
 
 1. Open VSCode
 2. Open Extensions view (`Cmd+Shift+X` / `Ctrl+Shift+X`)
 3. Search for "Solarized Deep"
 4. Click Install
+
+Or install directly from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=j4rviscmd.solarized-deep)
 
 ### Local Development & Testing
 
