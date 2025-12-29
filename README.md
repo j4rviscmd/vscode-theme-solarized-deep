@@ -4,7 +4,7 @@ A deeper, calmer VSCode dark theme based on Solarized Dark with enhanced darknes
 
 ## Screenshots
 
-(Coming soon)
+![Solarized Deep Theme Preview](./screenshots/preview.png)
 
 ## Features
 
