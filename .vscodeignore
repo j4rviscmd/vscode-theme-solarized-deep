@@ -11,6 +11,9 @@ node_modules
 # Documentation (except README)
 CHANGELOG.md
 
+# Development files
+sample-code.ts
+
 # OS files
 .DS_Store
 Thumbs.db
