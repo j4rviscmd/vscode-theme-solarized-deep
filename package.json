@@ -1,0 +1,34 @@
+{
+  "name": "solarized-deep",
+  "displayName": "Solarized Deep",
+  "description": "A deeper, calmer dark theme based on Solarized Dark",
+  "version": "0.1.0",
+  "publisher": "j4rviscmd",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/j4rviscmd/vscode-theme-solarized-deep"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "solarized",
+    "deep",
+    "color theme"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Solarized Deep",
+        "uiTheme": "vs-dark",
+        "path": "./themes/solarized-deep-color-theme.json"
+      }
+    ]
+  }
+}

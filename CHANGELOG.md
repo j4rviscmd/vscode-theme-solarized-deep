@@ -1,0 +1,20 @@
+# Change Log
+
+All notable changes to the "Solarized Deep" extension will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [0.1.0] - 2025-12-29
+
+### Added
+- Initial release
+- Deeper, calmer dark theme based on Solarized Dark
+- Editor background color set to `#000508` for enhanced darkness
+- Comprehensive UI color definitions (200+ properties)
+- Complete syntax highlighting definitions (35+ token scopes)
+- Semantic token color support
+- Maintains Solarized color palette
+- Support for major languages including TypeScript, JavaScript, Python, JSON, CSS, Markdown, and more
+- Git diff display color configuration
+- Terminal ANSI 16-color definitions

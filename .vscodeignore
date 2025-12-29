@@ -1,0 +1,27 @@
+# Git files
+.git
+.gitignore
+.gitattributes
+
+# Build and dependency files
+node_modules
+.vscode-test/
+*.vsix
+
+# Documentation (except README)
+CHANGELOG.md
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+*.code-workspace
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
