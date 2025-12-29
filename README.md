@@ -8,7 +8,7 @@ A deeper, calmer VSCode dark theme based on Solarized Dark with enhanced darknes
 
 ## Features
 
-- **Deeper Darkness**: Adopts an even darker background color (`#000508`) than traditional Solarized Dark
+- **Deeper Darkness**: Adopts an even darker background color (`#000a0f`) than traditional Solarized Dark
 - **Calm Color Palette**: Eye-friendly colors optimized for extended coding sessions
 - **Solarized Base**: Maintains the proven color hues of the Solarized color scheme
 - **Comprehensive Syntax Highlighting**: Extensive token color definitions for major programming languages
@@ -53,7 +53,7 @@ Or configure via settings:
 
 This theme is based on the Solarized color palette:
 
-- **Base**: `#000508` (background), `#93a1a1` (foreground)
+- **Base**: `#000a0f` (background), `#93a1a1` (foreground)
 - **Accent Colors**:
   - Green: `#859900` (keywords)
   - Cyan: `#2aa198` (strings)
