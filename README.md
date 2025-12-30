@@ -1,5 +1,10 @@
 # Solarized Deep
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![VS Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/j4rviscmd.solarized-deep?logo=visualstudiocode&logoColor=fff)](https://marketplace.visualstudio.com/items?itemName=j4rviscmd.solarized-deep)
+[![VS Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/j4rviscmd.solarized-deep?logo=visualstudiocode&logoColor=fff)](https://marketplace.visualstudio.com/items?itemName=j4rviscmd.solarized-deep)
+[![VS Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/j4rviscmd.solarized-deep?logo=visualstudiocode&logoColor=fff)](https://marketplace.visualstudio.com/items?itemName=j4rviscmd.solarized-deep)
+
 A deeper, calmer VSCode dark theme based on Solarized Dark with enhanced darkness.
 
 ## Screenshots
