@@ -39,6 +39,8 @@ cd vscode-theme-solarized-deep
 
 # Copy to VSCode extensions directory
 cp -r . ~/.vscode/extensions/solarized-deep-0.1.0
+# or
+# command palette -> Start Debugging
 
 # Restart VSCode
 ```
