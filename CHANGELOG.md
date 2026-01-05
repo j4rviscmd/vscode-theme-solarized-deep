@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 - Panel border color changed from background color to visible border (#021b26) for better visibility
+- Added tab.unfocusedActiveBorder setting for unfocused active tab border
 
 ## [0.1.1] - 2025-12-31
 
