@@ -5,6 +5,15 @@ All notable changes to the "Solarized Deep" extension will be documented in this
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.4] - 2026-03-15
+
+### Fixed
+- Improve tab foreground color visibility by differentiating active/inactive tab states
+  - `tab.inactiveForeground`: brightened from `#586e75` (base01) to `#839496` (base0) for better readability
+  - `tab.unfocusedActiveForeground`: darkened from `#93a1a1` (base1) to `#586e75` (base01) to distinguish from focused active tab
+- Improve selection highlight visibility in Quick Fix menu
+  - `list.activeSelectionBackground`, `list.focusBackground`, `menu.selectionBackground`, `editorSuggestWidget.selectedBackground`: changed from near-black to `#0a4a5c` for better contrast
+
 ## [0.1.3] - 2026-01-05
 
 ### Changed
