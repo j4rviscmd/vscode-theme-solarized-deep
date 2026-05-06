@@ -5,6 +5,15 @@ All notable changes to the "Solarized Deep" extension will be documented in this
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.6] - 2026-05-06
+
+### Fixed
+- Revert tab.activeBorder from orange (#cb4b16) back to cyan (#2aa198)
+- Darken statusBar.background from #000a0f to #000508 for better boundary visibility
+
+### Changed
+- Add CLAUDE.md to .gitignore and add .language file
+
 ## [0.1.5] - 2026-03-28
 
 ### Fixed
