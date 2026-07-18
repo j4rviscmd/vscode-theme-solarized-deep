@@ -5,7 +5,7 @@
 [![VS Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/j4rviscmd.solarized-deep?logo=visualstudiocode&logoColor=fff)](https://marketplace.visualstudio.com/items?itemName=j4rviscmd.solarized-deep)
 [![VS Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/j4rviscmd.solarized-deep?logo=visualstudiocode&logoColor=fff)](https://marketplace.visualstudio.com/items?itemName=j4rviscmd.solarized-deep)
 
-A deeper, calmer VSCode dark theme based on Solarized Dark with enhanced darkness.
+A calmer, refined VSCode dark theme based on Solarized Dark, with an adjustable depth blend between the classic Solarized Deep and the Osaka palette.
 
 ## Screenshots
 
@@ -19,7 +19,7 @@ I build this in my spare time. Every star shows that my work is valued and keeps
 
 ## Features
 
-- **Deeper Darkness**: Adopts an even darker background color (`#000a0f`) than traditional Solarized Dark
+- **Adjustable Depth**: Tune the theme's darkness from your settings — from the classic Solarized Deep (0%) to the Osaka palette (100%). Default is 80%.
 - **Calm Color Palette**: Eye-friendly colors optimized for extended coding sessions
 - **Solarized Base**: Maintains the proven color hues of the Solarized color scheme
 - **Comprehensive Syntax Highlighting**: Extensive token color definitions for major programming languages
@@ -44,7 +44,7 @@ git clone https://github.com/j4rviscmd/vscode-theme-solarized-deep.git
 cd vscode-theme-solarized-deep
 
 # Copy to VSCode extensions directory
-cp -r . ~/.vscode/extensions/solarized-deep-0.1.0
+cp -r . ~/.vscode/extensions/solarized-deep
 # or
 # command palette -> Start Debugging
 
@@ -64,12 +64,32 @@ Or configure via settings:
 }
 ```
 
-## Color Palette
+## Adjustable Depth
 
-This theme is based on the Solarized color palette:
+The theme ships at 80% — a blend of the classic Solarized Deep and the Osaka palette. Fine-tune the depth in your settings:
 
-- **Base**: `#000a0f` (background), `#93a1a1` (foreground)
-- **Accent Colors**:
+```json
+{
+  "solarizedDeep.depth": 80
+}
+```
+
+- `0` = classic Solarized Deep (darkest)
+- `100` = Osaka palette (lightest)
+- `80` (default) = balanced blend
+
+The adjustment affects the theme's background, foreground, borders, and selection colors. Syntax colors (keywords, strings, functions, etc.) stay fixed. Changes apply in real time — no reload needed.
+
+## Color Palette (default, depth = 80)
+
+A blend of the classic Solarized Deep and the Osaka palette:
+
+- **Base**:
+  - `#001218` (background)
+  - `#A8B3B3` (foreground)
+  - `#002833` (borders, selection, active tabs)
+  - `#175D63` (selection highlights)
+- **Accent Colors** (Solarized):
   - Green: `#859900` (keywords)
   - Cyan: `#2aa198` (strings)
   - Blue: `#268bd2` (functions)
