@@ -5,6 +5,21 @@ All notable changes to the "Solarized Deep" extension will be documented in this
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.2.0] - 2026-07-18
+
+### Added
+- Adjustable theme depth via `solarizedDeep.depth` setting (0=classic Solarized Deep, 100=Osaka palette, default 80). Real-time adjustment of background, foreground, borders, and selection colors.
+
+### Changed
+- Color palette reworked as a blend of the classic Solarized Deep and the Osaka palette (default 80%)
+  - Background: `#000a0f` → `#001218` (depth 80%)
+  - Foreground: `#93a1a1` → `#A8B3B3` (depth 80%)
+  - Borders/selection: `#021b26` → `#002833` (depth 80%)
+  - Selection accent: `#0a4a5c` → `#175D63` (depth 80%)
+  - Secondary foreground (tab.inactive): `#839496` → `#99A7A8` (depth 80%)
+  - Syntax accent colors preserved (Solarized standard)
+- Added `extension/extension.js` to apply depth-based color overrides dynamically
+
 ## [0.1.6] - 2026-05-06
 
 ### Fixed
