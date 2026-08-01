@@ -72,7 +72,7 @@ Tuned to the Osaka palette:
 
 - **Base**:
   - `#00141a` (background)
-  - `#000C12` (title, status, and activity bars)
+  - `#000E14` (title, status, and activity bars)
   - `#ADB8B8` (foreground)
   - `#002b36` (borders, selection, active tabs)
   - `#1A6265` (selection highlights)
