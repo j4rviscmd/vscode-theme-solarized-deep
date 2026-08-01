@@ -43,6 +43,9 @@ Or install directly from the [Visual Studio Marketplace](https://marketplace.vis
 git clone https://github.com/j4rviscmd/vscode-theme-solarized-deep.git
 cd vscode-theme-solarized-deep
 
+# Enable shared Git hooks (blocks direct pushes to main)
+git config core.hooksPath .githooks
+
 # Copy to VSCode extensions directory
 cp -r . ~/.vscode/extensions/solarized-deep
 # or
