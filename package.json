@@ -13,10 +13,6 @@
   "engines": {
     "vscode": "^1.80.0"
   },
-  "main": "./extension/extension.js",
-  "activationEvents": [
-    "onStartupFinished"
-  ],
   "categories": [
     "Themes"
   ],
@@ -34,18 +30,6 @@
         "uiTheme": "vs-dark",
         "path": "./themes/solarized-deep-color-theme.json"
       }
-    ],
-    "configuration": {
-      "title": "Solarized Deep",
-      "properties": {
-        "solarizedDeep.depth": {
-          "type": "number",
-          "default": 80,
-          "minimum": 0,
-          "maximum": 100,
-          "description": "Depth blend ratio (0=Deep, 100=Osaka). Controls how dark the theme is. Default 80."
-        }
-      }
-    }
+    ]
   }
 }
