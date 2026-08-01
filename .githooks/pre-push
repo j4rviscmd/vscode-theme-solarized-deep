@@ -1,0 +1,15 @@
+#!/bin/sh
+# pre-push: main ブランチへの直接 push をブロックする Git フック
+# main への変更は PR 経由でのみマージする運用を、ローカル側でも保護する目的。
+# 解除したい場合は git config --unset core.hooksPath を実行すること。
+
+while read -r local_ref local_oid remote_ref remote_oid; do
+	if [ "$remote_ref" = "refs/heads/main" ]; then
+		echo "[pre-push] main ブランチへの直接 push はブロックされました。" >&2
+		echo "[pre-push] main への変更は PR 経由でマージしてください。" >&2
+		echo "[pre-push] 保護を解除する場合: git config --unset core.hooksPath" >&2
+		exit 1
+	fi
+done
+
+exit 0
