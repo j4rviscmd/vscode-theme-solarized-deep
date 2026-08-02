@@ -5,6 +5,19 @@ All notable changes to the "Solarized Deep" extension will be documented in this
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.3.0] - 2026-08-02
+
+### ⚠️ Breaking Changes
+- depth 動的調整機能（`solarizedDeep.depth` 設定 + `extension/extension.js` による動的オーバーライド）を削除し、depth=100（Osaka パレット）固定の純粋な静的テーマに移行 (#26)
+  - `solarizedDeep.depth` 設定は削除され無視されます。従来の既定（depth=80）ユーザーは背景がやや明るくなります（`#001218` → `#00141a`）
+- titleBar / statusBar / activityBar をエディタ背景（`#00141a`）より暗く（`#000E14`）してフレーム境界を明確化 (#26)
+
+### Fixed
+- pre-push フックを courtesy guard として明文化し、bypass 手順をエラー出力から削除 (#25)
+
+### Changed
+- main ブランチへの直接 push をブロックする pre-push フックを追加 (#24)
+
 ## [0.2.0] - 2026-07-18
 
 ### Added
